@@ -8,7 +8,7 @@ export const personalInfo = {
   phone: 'TODO: Add phone number',
   linkedin: 'TODO: Add LinkedIn URL',
   github: 'TODO: Add GitHub URL',
-  resume: '/resume/README.txt',
+  resume: '/resume/Bhawit_resume_2_YOE.pdf',
   availability: 'Open to data and AI opportunities',
 };
 
@@ -68,10 +68,10 @@ export const skills = [
 
 export const experience = [
   {
-    company: 'Company Name',
-    role: 'Data Analyst',
-    period: '2024 — Present',
-    location: 'Location',
+    company: 'Ameriprise Financial',
+    role: 'Senior Data Analyst',
+    period: '2024 May — Present',
+    location: 'Gurugram, Haryana, India',
     summary: 'Business analytics and AI-powered decision support for strategic, operational, and customer-facing initiatives.',
     bullets: [
       'Developed dashboards and analytical models to support key decision-making processes and operational reviews.',
@@ -84,7 +84,7 @@ export const experience = [
   {
     company: 'IIT Delhi',
     role: 'Machine Learning Intern',
-    period: '2023 — 2024',
+    period: '2023 May — 2023 September',
     location: 'New Delhi',
     summary: 'Worked on applied machine learning projects focused on prediction, evaluation, and research-driven experimentation.',
     bullets: [

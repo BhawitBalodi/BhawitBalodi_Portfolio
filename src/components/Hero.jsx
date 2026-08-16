@@ -8,7 +8,7 @@ function Hero() {
     <section id="top" className="hero section">
       <div className="container hero-layout">
         <div className="hero-copy">
-          <p className="eyebrow">DATA ANALYTICS • AI • MACHINE LEARNING • GENERATIVE AI</p>
+          <p className="eyebrow">AI • MACHINE LEARNING  • DATA ANALYTICS • GENERATIVE AI</p>
           <h1>
             Hi, I&apos;m <span className="gradient-text">Bhawit.</span>
           </h1>
@@ -28,7 +28,7 @@ function Hero() {
                 Download Resume
               </button>
             ) : (
-              <a href={resumeHref} className="btn btn-ghost" target="_blank" rel="noreferrer">
+              <a href={resumeHref} className="btn btn-ghost" target="_blank" rel="noreferrer" download>
                 Download Resume
               </a>
             )}
@@ -43,7 +43,9 @@ function Hero() {
           </div>
         </div>
 
-        <div className="hero-visual" aria-hidden="true">
+            {/* I have commented the below snippet and replaced it with my image class and also added the code in index.css */}
+
+        {/* <div className="hero-visual" aria-hidden="true">
           <div className="visual-shell">
             <div className="orb orb-one" />
             <div className="orb orb-two" />
@@ -82,7 +84,18 @@ function Hero() {
               <circle cx="520" cy="210" r="8" fill="#c084fc" />
             </svg>
           </div>
+        </div> */}
+
+        <div className="hero-visual">
+          <div className="visual-shell">
+            <img
+            src="public/assets/bhawit_dp_v1.png"
+            alt="Bhawit portfolio hero visual"
+            className="hero-image"
+            />
+          </div>
         </div>
+        
       </div>
     </section>
   );
