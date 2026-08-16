@@ -1,9 +1,18 @@
+
 import { contact, personalInfo } from '../data/portfolioData';
 
 function Contact() {
-  const email = contact.email && !contact.email.startsWith('TODO:') ? contact.email : 'mailto:hello@example.com';
-  const linkedin = contact.linkedin && !contact.linkedin.startsWith('TODO:') ? contact.linkedin : '#';
-  const github = contact.github && !contact.github.startsWith('TODO:') ? contact.github : '#';
+  const email = contact.email && !contact.email.startsWith('TODO:')
+    ? `mailto:${contact.email}`
+    : 'mailto:hello@example.com';
+
+  const linkedin = contact.linkedin && !contact.linkedin.startsWith('TODO:')
+    ? contact.linkedin
+    : '#';
+
+  const github = contact.github && !contact.github.startsWith('TODO:')
+    ? contact.github
+    : '#';
 
   return (
     <section id="contact" className="section contact-section">
@@ -19,6 +28,7 @@ function Contact() {
             <a href={email} className="btn btn-primary">
               Email
             </a>
+
             {linkedin === '#' ? (
               <button type="button" className="btn btn-secondary disabled" disabled>
                 LinkedIn
@@ -28,6 +38,7 @@ function Contact() {
                 LinkedIn
               </a>
             )}
+
             {github === '#' ? (
               <button type="button" className="btn btn-secondary disabled" disabled>
                 GitHub

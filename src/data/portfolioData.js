@@ -4,10 +4,10 @@ export const personalInfo = {
   intro:
     'I build data-driven, AI-enabled solutions that translate business questions into measurable outcomes through analytics, ML, and GenAI systems.',
   location: 'India',
-  email: 'TODO: Add email address',
-  phone: 'TODO: Add phone number',
-  linkedin: 'TODO: Add LinkedIn URL',
-  github: 'TODO: Add GitHub URL',
+  email: 'bhawitbalodi@gmail.com',
+  phone: '+91 9773686062',
+  linkedin: 'https://www.linkedin.com/in/bhawit-balodi-106632208/',
+  github: 'https://github.com/BhawitBalodi',
   resume: '/resume/Bhawit_resume_2_YOE.pdf',
   availability: 'Open to data and AI opportunities',
 };
@@ -202,7 +202,8 @@ export const achievements = [
 ];
 
 export const contact = {
-  email: 'TODO: Add email address',
-  linkedin: 'TODO: Add LinkedIn URL',
-  github: 'TODO: Add GitHub URL',
+  email: 'bhawitbalodi@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/bhawit-balodi-106632208/',
+  github: 'https://github.com/BhawitBalodi',
 };
+

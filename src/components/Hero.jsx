@@ -89,7 +89,7 @@ function Hero() {
         <div className="hero-visual">
           <div className="visual-shell">
             <img
-            src="/assets/bhawit_dp_v1.png"
+            src="/assets/bhawit_dp_v1.PNG"
             alt="Bhawit portfolio hero visual"
             className="hero-image"
             />
