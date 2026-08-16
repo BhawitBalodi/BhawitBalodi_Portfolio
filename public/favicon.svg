@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bhawit Balodi favicon">
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#0b1120"/>
+  <path d="M19 16h14c9 0 16 6 16 15 0 6-3 10-8 12 6 2 10 7 10 14 0 11-8 17-19 17H19V16zm11 10v12h5c5 0 7-2 7-6s-2-6-7-6h-5zm0 22v14h6c6 0 9-2 9-7 0-5-3-7-9-7h-6z" fill="url(#g)"/>
+</svg>
