@@ -13,7 +13,7 @@ function Experience() {
           {featuredWork.map((item) => (
             <article key={item.title} className="panel feature-card">
               <div className="feature-topline">
-                <span className="mini-pill">Selected work</span>
+                <span className="mini-pill">Ameriprise Financial</span>
               </div>
               <h3>{item.title}</h3>
               <p>

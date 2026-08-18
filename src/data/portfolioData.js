@@ -14,10 +14,9 @@ export const personalInfo = {
 
 export const aboutContent = {
   paragraphs: [
+    'I love turning data into business growth - building intelligent solutions that help companies increase revenue, improve efficiency, and make smarter, more profitable decisions.',
     'I design and build analytical solutions that combine business context, machine learning, and practical decision support. My work sits at the intersection of data, AI, and measurable impact.',
-    'Across analytics, experimentation, and GenAI-focused problem solving, I focus on turning complex inputs into actionable systems that support product, operations, and strategic decisions.',
-    'I enjoy working with data pipelines, model development, and business-facing insights to help teams move from raw information to confident action.',
-  ],
+    ],
 };
 
 export const navLinks = [
@@ -41,6 +40,7 @@ export const expertise = [
   'Power BI',
   'Python',
   'SQL',
+  'Story Telling'
 ];
 
 export const skills = [
@@ -50,7 +50,7 @@ export const skills = [
   },
   {
     category: 'AI / Machine Learning',
-    items: ['Machine Learning', 'Deep Learning', 'NLP', 'LLMs', 'Generative AI', 'Computer Vision', 'Clustering', 'RAG'],
+    items: ['Machine Learning', 'Deep Learning', 'NLP', 'LLMs', 'RAG', 'Generative AI', 'Clustering',  'Computer Vision'],
   },
   {
     category: 'Cloud & Data',
@@ -74,6 +74,7 @@ export const experience = [
     location: 'Gurugram, Haryana, India',
     summary: 'Business analytics and AI-powered decision support for strategic, operational, and customer-facing initiatives.',
     bullets: [
+      'Refer to above tiles for the detail projects and work done in Ameriprise Financial.',
       'Developed dashboards and analytical models to support key decision-making processes and operational reviews.',
       'Partnered with stakeholders to turn business questions into measurable metrics, data stories, and action plans.',
       'Used Python, SQL, and BI tooling to uncover trends, anomalies, and opportunities across large datasets.',
@@ -88,63 +89,48 @@ export const experience = [
     location: 'New Delhi',
     summary: 'Worked on applied machine learning projects focused on prediction, evaluation, and research-driven experimentation.',
     bullets: [
-      'Explored data patterns and model behavior using structured experimentation and performance analysis.',
-      'Built and validated ML pipelines for prediction and pattern recognition tasks using real-world data.',
-      'Assessed model metrics, feature quality, and iterative improvements to strengthen solution accuracy and reliability.',
-      'Collaborated across research and technical teams to translate analytical findings into implementation-ready recommendations.',
-    ],
+      'Worked with live solar power sensor data for the power output of a solar panel.',
+      'Performed data cleaning, preprocessing, and EDA to identify patterns. Experiemented with multiple deep learning models including simple NN, RNNs, and LSTMs to evaulate performace.',
+      'Deployed the final model using Flask.',
+      ],
     stack: ['Machine Learning', 'Python', 'Data Modeling', 'Evaluation'],
-  },
-  {
-    company: 'CSIR-NPL',
-    role: 'Machine Learning Intern',
-    period: '2022 — 2023',
-    location: 'New Delhi',
-    summary: 'Applied analytical and ML techniques to research-oriented problems with a focus on practical model development.',
-    bullets: [
-      'Analyzed datasets and engineered relevant features to support classification and prediction objectives.',
-      'Implemented ML models and evaluated performance against technical and project-specific requirements.',
-      'Supported experimentation to improve model quality, reproducibility, and decision readiness.',
-      'Documented insights and model findings to communicate value to technical stakeholders and collaborators.',
-    ],
-    stack: ['Machine Learning', 'Python', 'Research', 'Model Validation'],
   },
 ];
 
 export const featuredWork = [
   {
     title: 'APWG Client Prioritization & Retention Dashboard',
-    problem: 'Prioritize client retention and outreach with a clear view of risk, performance, and engagement signals.',
-    solution: 'Designed a decision-support dashboard combining data exploration, segmentation logic, and KPI tracking for business action.',
-    impact: 'Improved operational visibility and supported more targeted client engagement decisions.',
-    tags: ['Analytics', 'Power BI', 'Decision Support', 'Business Intelligence'],
+    problem: 'Advisor attrition in Ameriprise led to loss of high-value clients and AUM, as departing advisors moved clients to competitor firms. The business APWG lacked a unified view of client profiles and actionable insights to enable timely reassignment and retention.',
+    solution: 'Developed a interactive Power BI Dashboard providing a consolidated view of client linked to termed advisors. Integrated key metrics including AUM Segmentations, portfolio distribution, growth trends, product enrollment, deomographic details, and engagement activity. Enabled client prioritization and generated contextual "calling summaries" to support retention conversations & reassignment.',
+    impact: 'Improved visiblity into high-value clients & accelerated reassignment process for APWG. Enabled data-driven prioritization, enhanced retention efforts and reduced potential AUM loss.',
+    tags: ['Analytics', 'Power BI', 'Decision Support', 'Business Intelligence', 'Python'],
   },
   {
     title: 'Advice Insights Deletion Analysis using LLM',
-    problem: 'Interpret large-scale text and recommendation data to identify patterns and more actionable decision signals.',
-    solution: 'Combined LLM-driven qualitative analysis with structured evaluation to surface actionable insights from complex advisory content.',
-    impact: 'Improved analysis efficiency and created a faster path from raw text to business insight.',
+    problem: 'In the Advice Insights tool, advisors frequently deleted client insight notifications and provided unstructured comments. The business lacked visibility into the reasons behind these deletions, making it difficult to improve the relevance and effectiveness of insights',
+    solution: 'Designed an LLM-based framework using Claude to analyze advisor comments. Performed sentiment analysis to categorize reasons for insight deletions across different insight types, transforming unstructured feedback into actionable insights.',
+    impact: 'Provided clear visibility into advisor behaviour and key drivers of insight deletions, enabling optimization of the Advice Insights tool. Automated a previously manual analysis process, saving 5+ hours per month and improving overall efficiency.',
     tags: ['LLM', 'NLP', 'GenAI', 'Business Analytics'],
   },
   {
     title: 'Practice Segmentation',
-    problem: 'Group similar client or practice patterns to improve targeting and strategic planning.',
-    solution: 'Applied clustering and statistical analysis to segment data into meaningful groups for operational prioritization.',
-    impact: 'Enabled clearer targeting and stronger strategic decision support.',
+    problem: 'Business wants to segment practices (advisor’s team) based on performance, to improve overall advisor productivity',
+    solution: 'Developed a clustering-based segmentation framework using K-Means, Agglomerative Clustering (with Gower distance), and K-Prototypes to handle mixed data types. Performed EDA to identify key features and optimized cluster formation using silhouette score for evaluation. Generated actionable segments to distinguish high- and low-performing advisors',
+    impact: 'Enabled the business to design targeted events and pairing strategies for different segments',
     tags: ['Clustering', 'Statistics', 'Segmentation', 'Analytics'],
   },
   {
     title: 'GenAI-driven Financial Plan Evaluator',
-    problem: 'Make financial plan review more scalable and actionable for decision makers.',
-    solution: 'Built a GenAI-based evaluator that interprets plan information and surfaces structured insights for business use.',
-    impact: 'Reduced manual effort and improved evaluation speed for complex plan review workflows.',
+    problem: 'Annual financial plans created by advisors were manually reviewed by supervision teams to ensure regulatory compliance, client-goal alignment, and fee justification—resulting in high operational cost, long turnaround times, and review inconsistency at scale.',
+    solution: 'Built an automated compliance review system leveraging AWS Bedrock (Claude LLMs) to evaluate financial plans against regulatory, coverage, and quality criteria, including completeness of financial fundamentals, plan quality, and advisor fee justification. •	Implemented LLM-based semantic similarity and change-detection to identify near-duplicate plans across multiple years, addressing low-value plan refreshes and improving advisor accountability. •	Combined rule-based validations with LLM-powered reasoning to detect material changes across multi-year plans, improving precision while retaining explainability and audit defensibility.',
+    impact: 'Reduced reliance on manual supervision and saved 100K+ hours annually, enabling scalable, consistent, and regulator-ready plan reviews.',
     tags: ['Generative AI', 'LLM', 'AI Applications', 'Business Impact'],
   },
 ];
 
 export const projects = [
   {
-    title: 'Virtual Lawyer / RAG Legal Assistant',
+    title: 'Virtual Lawyer - Legal Assistant',
     description: 'A retrieval-augmented conversational assistant designed to help users query legal information more naturally and efficiently.',
     problem: 'Legal information is often fragmented and difficult to search across multiple sources and documents.',
     solution: 'Developed a RAG-based assistant that retrieves relevant legal context and grounds responses in source material.',
@@ -163,35 +149,30 @@ export const projects = [
     demo: 'TODO: Add demo URL',
     tags: ['Machine Learning', 'Forecasting', 'Python', 'Data Analysis'],
   },
-  {
-    title: 'Customer Behavior Analytics',
-    description: 'A portfolio-ready analytics project demonstrating segmentation, visual storytelling, and decision support.',
-    problem: 'Organizations need a more actionable understanding of customer behavior and engagement patterns.',
-    solution: 'Analyzed behavioral data, developed segmentation insights, and packaged findings into clear visual narratives.',
-    impact: 'Strengthened understanding of patterns that matter for business strategy and targeting.',
-    github: 'TODO: Add GitHub URL',
-    demo: 'TODO: Add demo URL',
-    tags: ['Analytics', 'Segmentation', 'Visualization', 'Power BI'],
-  },
 ];
 
 export const publication = {
   title: 'Automated Static Malware Analysis Using Machine Learning',
-  authors: 'TODO: Add authors if available',
+  authors: 'Bhawit Balodi, Srijan Sharma, Anil Kumar Shukla, Bupendra Singh',
   conference: '10th International Conference on Signal Processing and Integrated Networks (SPIN)',
   description:
     'A research-focused project centered on applying machine learning for malware analysis using static features and automated classification techniques.',
-  link: 'TODO: Add publication link or DOI',
+  link: 'https://ieeexplore.ieee.org/document/10116580',
 };
 
 export const education = [
   {
     degree: 'Bachelor of Technology',
     field: 'Computer Science Engineering',
-    school: 'Inderprastha Engineering College',
-    board: 'AKTU',
+    school: 'Inderprastha Engineering College (Under AKTU), Ghaziabad, U.P.',
     period: '2020 — 2024',
   },
+  {
+    degree: 'Senior Secondary Education',
+    field: 'Science Stream - PCM',
+    school: 'St. Angles Senior Secondary School, Rohini, Delhi',
+    period: '2018 — 2020',
+  }
 ];
 
 export const achievements = [

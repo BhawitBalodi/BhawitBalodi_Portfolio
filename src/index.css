@@ -88,7 +88,7 @@ main {
 .mini-pill,
 .panel-kicker {
   margin: 0 0 18px;
-  font-size: 0.74rem;
+  font-size: 0.9rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #9ab5d1;
@@ -343,7 +343,7 @@ button:disabled {
   display: grid;
   place-items: center;
   width: min(540px, 100%);
-  height: min(540px, 72vw);
+  height: min(700px, 72vw);
   border-radius: 26px;
   border: 1px solid rgba(148, 163, 184, 0.18);
   background: linear-gradient(180deg, rgba(15, 25, 38, 0.85), rgba(12, 21, 35, 0.52));
@@ -425,7 +425,8 @@ button:disabled {
 }
 
 .expertise-panel {
-  padding: 1.6rem;
+  padding: 1.8rem;
+  transform: translate(70px,-150px);
 }
 
 .panel-header {

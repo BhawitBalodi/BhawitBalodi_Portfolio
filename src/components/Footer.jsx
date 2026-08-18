@@ -5,7 +5,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="container footer-wrap">
         <p>© {new Date().getFullYear()} {personalInfo.name}</p>
-        <p>Built with React + Vite</p>
+        <p>Happy to connect!</p>
       </div>
     </footer>
   );

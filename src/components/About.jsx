@@ -6,7 +6,7 @@ function About() {
       <div className="container">
         <div className="section-header">
           <p className="eyebrow">About</p>
-          <h2>Building analytical and AI solutions with business clarity.</h2>
+          <h2>Building analytical and AI solutions for business growth.</h2>
         </div>
 
         <div className="about-grid">
